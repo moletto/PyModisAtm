@@ -8,11 +8,10 @@ The following variables can be modified to download your own and specific data, 
 
 This script only search over LADSFTP, use [pyModis](http://www.pymodis.org) for terrestrial MODIS data, converts a HDF, reproject, and other resources. 
 
-Copyright Tomás Acuña - 2017 
+Copyright Tomás Acuña, Italo Moletto - 2017 
 
 #### Adjust the following variables to search over the FTP. This script will create a MODIS folder (C:/MODIS) with the selected products, downloading each HDF file for and specific hour and day for the givin years. 
 _________________________________________
-
 **Product and version**
 ```
 product=['MOD07_L2','MOD04_L2','MOD05_L2']
